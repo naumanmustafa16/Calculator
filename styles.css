@@ -1,0 +1,77 @@
+#container{
+    border : 10px black solid;
+    width: 1000px;
+    height: 1255px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    margin: auto;
+}
+.display{
+    border : 3px black solid;
+    width: 1000px;
+    height: 250px;
+    font-family: sans-serif;
+    font-size: 150px;
+    text-align: right;
+    background-color: black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    color: white;
+    
+    
+
+}
+.btnpanel{
+    border : 3px black solid;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(206, 204, 204);
+}
+button {
+    width: 250px;
+    font-size: 25px;
+    color: darkslategrey;
+    text-shadow: 0 5px 5px #301;
+
+}
+.num{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    /* background-color: hwb(270 21% 77%); */
+    color : white;
+    border-radius: 20px;
+    background: rgb(69, 78, 133);
+    background: -webkit-linear-gradient(top, rgb(69, 78, 133) 0%,rgb(69, 78, 133) 44%,rgb(69, 78, 133) 100%);
+    background: linear-gradient(to bottom, rgb(69, 78, 133) 0%,rgb(69, 78, 133) 44%,rgb(69, 78, 133) 100%);
+    
+}
+.allClear, .add,.subtract,.multiply,.divide,.equalTo{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    /* background-color: rgb(51, 82, 41); */
+    color : white;
+    border-radius: 20px;
+    background: rgb(51, 82, 41);
+    background: -webkit-linear-gradient(top, rgb(51, 82, 41) 0%,rgb(51, 82, 41) 44%,rgb(51, 82, 41) 100%);
+    background: linear-gradient(to bottom, rgb(51, 82, 41) 0%,rgb(51, 82, 41) 44%,rgb(51, 82, 41) 100%);
+}
+
+.allClear{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    /* background-color: rgb(51, 82, 41); */
+    color : white;
+    border-radius: 20px;
+    background: rgb(216, 98, 19);
+    background: -webkit-linear-gradient(top, rgb(216, 98, 19) 0%,rgb(216, 98, 19) 44%,rgb(216, 98, 19) 100%);
+    background: linear-gradient(to bottom, rgb(216, 98, 19) 0%,rgb(216, 98, 19) 44%,rgb(216, 98, 19) 100%);
+}
