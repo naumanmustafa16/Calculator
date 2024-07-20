@@ -3,33 +3,20 @@ let operator = (prompt("Please enter the operator:"))
 let b = parseInt(prompt("Please enter the second Number:"))
 let result;
 
-function add (a,b) {
-    return result = a+b;
-}
-function subtract (a,b) {
-    return result = a-b;
-}
-function multiply (a,b) {
-    return result = a*b;
-}
-function divide (a,b) {
-    return result = a/b;
-}
-
-function operate(operator) {
+function operate(a,b,operator) {
     if (operator == '+') {
-        add(a,b)
+        return result = a+b;
         
     }
     else if (operator == '-'){
-        subtract(a,b)
+        return result = a-b;
     }
     else if (operator == '*'){
-        multiply(a,b)
+        return result = a*b;
     }
     else if (operator == '/'){
-        divide(a,b)
+        return result = a/b;
     }
 }
-operate(operator);
+operate(a,b,operator);
 alert(result)
